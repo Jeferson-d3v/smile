@@ -1,3 +1,4 @@
+<h1>Dados da Compra</h1>
 <label>Id Produto: {{$IdProduto}}</label><br>
 <label>Produto: {{$Produto}}</label><br>
 <label>Id User: {{$IdUser}}</label><br>

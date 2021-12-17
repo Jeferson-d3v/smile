@@ -4,21 +4,21 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class UserController extends Controller
+class productController extends Controller
 {
     public function display($id) {
-        return 'Usuário '.$id;
+        return 'Produto '.$id;
       }
-    
+  
       public function displayEmpty() {
         return 'ID vazio';
       }
-    
+  
       public function edit($id) {
-        return 'Usuário '.$id.' editado';
+        return 'Produto '.$id.' editado';
       }
-    
+  
       public function delete($id) {
-        return 'Usuário '.$id.' excluído';
+        return 'Produto '.$id.' deletado';
       }
 }
